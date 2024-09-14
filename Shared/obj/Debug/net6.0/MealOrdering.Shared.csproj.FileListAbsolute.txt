@@ -1,0 +1,12 @@
+/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Shared/bin/Debug/net6.0/MealOrdering.Shared.deps.json
+/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Shared/bin/Debug/net6.0/MealOrdering.Shared.dll
+/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Shared/bin/Debug/net6.0/MealOrdering.Shared.pdb
+/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Shared/obj/Debug/net6.0/MealOrdering.Shared.csproj.AssemblyReference.cache
+/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Shared/obj/Debug/net6.0/MealOrdering.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Shared/obj/Debug/net6.0/MealOrdering.Shared.AssemblyInfoInputs.cache
+/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Shared/obj/Debug/net6.0/MealOrdering.Shared.AssemblyInfo.cs
+/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Shared/obj/Debug/net6.0/MealOrdering.Shared.csproj.CoreCompileInputs.cache
+/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Shared/obj/Debug/net6.0/MealOrdering.Shared.dll
+/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Shared/obj/Debug/net6.0/refint/MealOrdering.Shared.dll
+/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Shared/obj/Debug/net6.0/MealOrdering.Shared.pdb
+/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Shared/obj/Debug/net6.0/ref/MealOrdering.Shared.dll

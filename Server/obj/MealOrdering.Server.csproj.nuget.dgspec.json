@@ -1,0 +1,358 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Server/MealOrdering.Server.csproj": {}
+  },
+  "projects": {
+    "/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering.Server.Data/MealOrdering.Server.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering.Server.Data/MealOrdering.Server.Data.csproj",
+        "projectName": "MealOrdering.Server.Data",
+        "projectPath": "/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering.Server.Data/MealOrdering.Server.Data.csproj",
+        "packagesPath": "/Users/hidayetgungorur/.nuget/packages/",
+        "outputPath": "/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering.Server.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hidayetgungorur/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client/MealOrdering.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client/MealOrdering.Client.csproj",
+        "projectName": "MealOrdering.Client",
+        "projectPath": "/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client/MealOrdering.Client.csproj",
+        "packagesPath": "/Users/hidayetgungorur/.nuget/packages/",
+        "outputPath": "/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hidayetgungorur/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Shared/MealOrdering.Shared.csproj": {
+                "projectPath": "/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Shared/MealOrdering.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Blazored.Modal": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.AspNetCore.Components.Authorization": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.33, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.33, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Server/MealOrdering.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Server/MealOrdering.Server.csproj",
+        "projectName": "MealOrdering.Server",
+        "projectPath": "/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Server/MealOrdering.Server.csproj",
+        "packagesPath": "/Users/hidayetgungorur/.nuget/packages/",
+        "outputPath": "/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Server/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hidayetgungorur/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.317/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering.Server.Data/MealOrdering.Server.Data.csproj": {
+                "projectPath": "/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering.Server.Data/MealOrdering.Server.Data.csproj"
+              },
+              "/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client/MealOrdering.Client.csproj": {
+                "projectPath": "/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client/MealOrdering.Client.csproj"
+              },
+              "/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Shared/MealOrdering.Shared.csproj": {
+                "projectPath": "/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Shared/MealOrdering.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Blazored.Modal": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.33, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[6.0.33, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Shared/MealOrdering.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Shared/MealOrdering.Shared.csproj",
+        "projectName": "MealOrdering.Shared",
+        "projectPath": "/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Shared/MealOrdering.Shared.csproj",
+        "packagesPath": "/Users/hidayetgungorur/.nuget/packages/",
+        "outputPath": "/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hidayetgungorur/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

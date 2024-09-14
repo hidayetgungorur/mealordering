@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "qnIpseRV759zPFhiqqfYF0YR2hmU7mg/Q3M/tXmz8tCW8lz7jErtwLTqh4KcMPbbarorCqkCVh2xxDFCS7QSCQ==",
+  "success": true,
+  "projectFilePath": "/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Shared/MealOrdering.Shared.csproj",
+  "expectedPackageFiles": [
+    "/Users/hidayetgungorur/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.31/microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
+    "/Users/hidayetgungorur/.nuget/packages/microsoft.netcore.app.ref/6.0.31/microsoft.netcore.app.ref.6.0.31.nupkg.sha512"
+  ],
+  "logs": []
+}

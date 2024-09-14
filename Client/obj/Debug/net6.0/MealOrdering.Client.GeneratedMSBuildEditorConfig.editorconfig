@@ -1,0 +1,97 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = MealOrdering.Client
+build_property.RootNamespace = MealOrdering.Client
+build_property.ProjectDir = /Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client/CustomComponents/Buttons/AddNewButtonComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q3VzdG9tQ29tcG9uZW50cy9CdXR0b25zL0FkZE5ld0J1dHRvbkNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client/CustomComponents/Buttons/BaseButtonComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q3VzdG9tQ29tcG9uZW50cy9CdXR0b25zL0Jhc2VCdXR0b25Db21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client/CustomComponents/Buttons/ButtonComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q3VzdG9tQ29tcG9uZW50cy9CdXR0b25zL0J1dHRvbkNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client/CustomComponents/Buttons/CustomEditButtonComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q3VzdG9tQ29tcG9uZW50cy9CdXR0b25zL0N1c3RvbUVkaXRCdXR0b25Db21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client/CustomComponents/ModalComponents/BaseModalComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q3VzdG9tQ29tcG9uZW50cy9Nb2RhbENvbXBvbmVudHMvQmFzZU1vZGFsQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client/CustomComponents/ModalComponents/ConfirmationPopupComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q3VzdG9tQ29tcG9uZW50cy9Nb2RhbENvbXBvbmVudHMvQ29uZmlybWF0aW9uUG9wdXBDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client/CustomComponents/ModalComponents/ShowMessagePopupComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q3VzdG9tQ29tcG9uZW50cy9Nb2RhbENvbXBvbmVudHMvU2hvd01lc3NhZ2VQb3B1cENvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client/Pages/ButtonTest.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQnV0dG9uVGVzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client/Pages/Logout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9nb3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client/Pages/Users/UserList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlcnMvVXNlckxpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client/Shared/EmptyLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0VtcHR5TGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-9lnu8a1fxc
+
+[/Users/hidayetgungorur/Projects/MealOrdering/MealOrdering/Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-64fniq08l6

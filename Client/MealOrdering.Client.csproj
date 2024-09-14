@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'MealOrdering' ">
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.33" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.33" PrivateAssets="all" />
+    <PackageReference Include="Blazored.Modal" Version="6.0.1" />
+    <PackageReference Include="Blazored.LocalStorage" Version="4.5.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shared\MealOrdering.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="CustomComponents\" />
+    <None Remove="CustomComponents\Buttons\" />
+    <None Remove="Utils\" />
+    <None Remove="CustomComponents\ModalComponents\" />
+    <None Remove="Pages\Users\" />
+    <None Remove="Pages\PageProcess\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CustomComponents\" />
+    <Folder Include="CustomComponents\Buttons\" />
+    <Folder Include="Utils\" />
+    <Folder Include="CustomComponents\ModalComponents\" />
+    <Folder Include="Pages\Users\" />
+    <Folder Include="Pages\PageProcess\" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="6.0.33" />
+    <PackageReference Include="Blazored.Modal" Version="6.0.1" />
+    <PackageReference Include="AutoMapper" Version="11.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.33" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Client\MealOrdering.Client.csproj" />
+    <ProjectReference Include="..\Shared\MealOrdering.Shared.csproj" />
+    <ProjectReference Include="..\..\MealOrdering.Server.Data\MealOrdering.Server.Data.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Remove="Services\" />
+    <None Remove="Services\Extensions\" />
+    <None Remove="Services\Infrastruce\" />
+    <None Remove="Services\Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Services\Extensions\" />
+    <Folder Include="Services\Infrastruce\" />
+    <Folder Include="Services\Services\" />
+  </ItemGroup>
+</Project>
